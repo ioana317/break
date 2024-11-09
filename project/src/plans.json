@@ -1,0 +1,25 @@
+[
+    {
+        "id": "1",
+        "type": "Basic Plan",
+        "cost": "Free",
+        "features": ["On-the-go lessons", "Help from community",
+        "Daily personalized lessons", "Unlimited practices"]
+    },
+    {
+        "id": "2",
+        "type": "Annual Plan",
+        "cost": "50$/year",
+        "features": ["On-the-go lessons", "Help from community",
+        "Daily personalized lessons", "Unlimited practices",
+        "Bonus exercices", "Advanced goals and stats", "Priority support"]
+    },
+    {
+        "id": "3",
+        "type": "Monthly Plan",
+        "cost": "10$/month",
+        "features": ["On-the-go lessons", "Help from community",
+        "Daily personalized lessons", "Unlimited practices",
+        "Bonus exercices"]
+    }
+]

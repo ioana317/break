@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "William Smith",
+        "profession": "Web Developer",
+        "image": "/images/profile1.png",
+        "review": "\"CodeBreak transformed my coding journey! The interactive lessons and AI Learning Assistant helped me grasp complex concepts with ease. I've never felt more confident in my skills!\""
+    },
+    {
+        "id": "2",
+        "name": "Brad Noel",
+        "profession": "Photographer",
+        "image": "/images/profile2.png",
+        "review": "\"Thanks to CodeBreak, I went from a complete beginner to a proficient coder in just a few months. The real-time feedback and support are invaluable!\""
+    },
+    {
+        "id": "3",
+        "name": "John Gee",
+        "profession": "Digital Marketing",
+        "image": "public/images/profile2.png",
+        "review": "\"Thanks to CodeBreak, I went from a complete beginner to a proficient coder in just a few months. The real-time feedback and support are invaluable!\""
+    },
+    {
+        "id": "4",
+        "name": "Martin Sierra",
+        "profession": "Writer",
+        "image": "/images/profile1.png",
+        "review": "\"CodeBreak transformed my coding journey! The interactive lessons and AI Learning Assistant helped me grasp complex concepts with ease. I've never felt more confident in my skills!\""
+    }
+]

@@ -1,0 +1,26 @@
+[
+        {
+            "id": "1",
+            "title": "Java",
+            "description": "Learn to code in Java — a robust programming language used to create software, web and mobile apps, and more.",
+            "level": "Intermediate",
+            "type": "Professional certification",
+            "time": "14 hours"
+        },
+        {
+            "id": "2",
+            "title": "React",
+            "description": "Learn to build powerful interactive applications with one of the most popular JavaScript libraries.",
+            "level": "Intermediate",
+            "type": "Professional certification",
+            "time": "98 hours"
+        },
+        {
+            "id": "3",
+            "title": "Python",
+            "description": "Basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today.",
+            "level": "Beginner Friendly",
+            "type": "Professional certification",
+            "time": "48 hours"
+        }
+]

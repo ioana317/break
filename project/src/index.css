@@ -1,0 +1,285 @@
+@import url(https://db.onlinewebfonts.com/c/c047c45f2f17b7181eabd58dd681c8ac?family=Boogie+School+Sans);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+  }
+
+:root {
+  --black: #0d0901;
+  --grey: #2e2c2a;
+  --transparent-grey: #2e2c2a39;
+  --blue: #0e2f44;
+  --yellow: #e5b768;
+  --dark-yellow: #c1a87e;
+  --white: #efe6d6;
+  --red: #AA3F3F;
+}
+
+.h1 {
+  font-family: "Boogie School Sans", "Boogie School Sans Middle 2nd Regular";
+  font-size: 6.6rem;
+}
+
+.h1-exception {
+  font-family: "Boogie School Sans", "Boogie School Sans Middle 3rd Regular";
+  font-size: 8rem;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: var(--black);
+}
+
+.h2 {
+  font-family: "Boogie School Sans", "Boogie School Sans Middle 2nd Regular";
+  font-size: 2.9rem;
+  line-height: 3rem;
+}
+
+.h3 {
+  font-family: "Boogie School Sans", "Boogie School Sans Middle 2nd Regular";
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.boogie {
+  font-family: "Boogie School Sans", "Boogie School Sans Middle 2nd Regular";
+}
+
+.logo {
+  font-family: "Boogie School Sans", "Boogie School Sans High 4th Regular";
+}
+
+.btn {
+  box-shadow: -4px 3px var(--white);
+  border: 1px solid var(--black);
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+}
+
+.btn:hover {
+  font-weight: 600;
+  transform: translate(-3px, 2px);
+  box-shadow: -1px 1px var(--white);
+}
+
+.hero {
+  background: linear-gradient(
+      200deg,
+      rgba(13, 9, 1, 1) 70%,
+      rgba(193, 168, 126, 0) 100%
+    ),
+    url('/images/background.png');
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+li {
+  padding: 1rem;
+}
+
+li:hover {
+  color: var(--yellow);
+  font-weight: 600;
+  transform: translateY(-3px);
+}
+
+
+.card {
+  border: 1px solid var(--black);
+  box-shadow: -4px 6px var(--yellow);
+  transition: all ease 0.4s;
+}
+
+.card:hover {
+  transform: translate(-2px, 3px);
+  box-shadow: -2px 2px var(--yellow);
+}
+
+.card-btn {
+  background: var(--yellow);
+  width: fit-content;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--black);
+  transition: all ease-in-out 0.3s;
+}
+
+.card-btn:hover {
+  cursor: pointer;
+  font-size: 1.01rem;
+}
+
+#courses {
+  background-image: linear-gradient(
+      150deg,
+      rgba(193, 168, 126, 0) 1%,
+      rgba(13, 9, 1, 1) 40%
+    ),
+    url('/images/background.png');
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.pos {
+  grid-column:1/3;
+}
+
+#plans {
+  background-image: linear-gradient(
+        20deg, 
+        rgba(193, 168, 126, 0) 1%,
+        rgba(13, 9, 1, 1) 40%),
+            url('/images/background.png');
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 3rem 0;
+}
+
+.shadow {
+  box-shadow: -1rem -1.5rem var(--blue);
+}
+
+.circle {
+    border-radius: 100%;
+    position: absolute;
+    animation: float linear 3s infinite;
+}
+
+.circle-outline {
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    position: absolute;
+    animation: float linear 3.1s infinite;
+}
+
+.red-line {
+    height: 0.7rem;
+    width: 14rem;
+    position: relative;
+    background-color: var(--red);
+}
+
+.white-line {
+  height: 1.4rem;
+  width: 44rem;
+  position: relative;
+  background-color: var(--white);
+}
+
+input, textarea {
+  width: 100%;
+}
+
+#shape {
+    animation: float 4s linear infinite;
+}
+#shape-outline {
+    animation: float 4.2s linear infinite;
+}
+
+.small-menu {
+  display: none;
+}
+
+
+footer {
+  padding: 1rem;
+  background-image: url('/images/codeBreak.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes float {
+    0% {
+        transform: rotate(0deg) translateX(10px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translateX(10px) rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+  .container-sm {
+    align-items: center;
+  }
+    .h1 {
+      font-size: 4rem;
+      padding: 0;
+      max-width: 340px;
+    }
+    .h1-exception {
+      font-size: 4.4rem;
+    }
+
+    .h2 {
+      font-size: 2.4rem;
+    }
+
+    .h3 {
+      font-size: 1.4rem;
+    }
+    .hero-cta {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+    }
+
+    .course-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .plan-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .question-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .join-container {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .legal-links {
+      flex-direction: column;
+    }
+
+    .navbar {
+      display: none;
+    }
+
+    .hamburger {
+      display: block;
+      width: 2rem;
+    }
+
+    .red-line,
+    .white-line,
+    .circle,
+    .circle-outline,
+    #shape, 
+    #shape-outline {
+      display: none;
+    }
+
+    .small-menu {
+      display: block;
+    }
+}

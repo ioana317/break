@@ -1,0 +1,17 @@
+[
+    {
+        "id" : "1",
+        "question": "Is this a subscription service?",
+        "answer": "yes it is"
+    },
+    {
+        "id" : "2",
+        "question": "What kind of support can I expect if I have questions or need help?",
+        "answer": "you have all the support that you need"
+    },
+    {
+        "id" : "3",
+        "question": "Is this course right for me if I don't have a technical background?",
+        "answer": "yes it is. you can learn it now"
+    }
+]
